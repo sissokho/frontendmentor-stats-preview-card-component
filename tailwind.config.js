@@ -2,7 +2,11 @@ module.exports = {
     content: ['./index.html'],
     theme: {
         colors: {
-            white: 'hsl(0, 0%, 100%)',
+            white: {
+                DEFAULT: 'hsl(0, 0%, 100%)',
+                'transparent-main': 'hsla(0, 0%, 100%, 0.75)',
+                'transparent-stats': 'hsla(0, 0%, 100%, 0.6)',
+            },
             blue: {
                 dark: 'hsl(233, 47%, 7%)',
                 desaturated: 'hsl(244, 38%, 16%)',
