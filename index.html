@@ -18,8 +18,45 @@
     <link rel="stylesheet" href="/css/tailwind.css">
 </head>
 
-<body>
+<body class="bg-blue-dark font-inter">
+    <main class="flex justify-center items-center min-h-screen py-20">
+        <article class="flex flex-col w-80 bg-blue-desaturated rounded-lg overflow-hidden">
+            <div class="h-60">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="images/image-header-mobile.jpg">
+                    <source media="(min-width: 769px)" srcset="images/image-header-desktop.jpg">
+                    <img class="w-full h-full" src="images/image-header-desktop.jpg"
+                        alt="Image of our team members working">
+                </picture>
+            </div>
 
+            <div class="px-8 py-10">
+                <h1 class="text-center text-white font-bold text-[1.7rem] leading-tight">
+                    Get <span class="text-violet">insights</span> that help your business grow.
+                </h1>
+
+                <p class="text-center mt-4 text-body text-white-transparent-main">
+                    Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                    experience, and overall efficiency.
+                </p>
+
+                <div class="flex flex-col items-center gap-5 mt-10 text-white">
+                    <span class="text-center font-bold text-2xl">
+                        10k+ <span
+                            class="block font-lexend font-regular text-xs text-white-transparent-stats tracking-wider uppercase">companies</span>
+                    </span>
+                    <span class="text-center font-bold text-2xl">
+                        314 <span
+                            class="block font-lexend font-regular text-xs text-white-transparent-stats tracking-wider uppercase">templates</span>
+                    </span>
+                    <span class="text-center font-bold text-2xl">
+                        12M+ <span
+                            class="block font-lexend font-regular text-xs text-white-transparent-stats tracking-wider uppercase">queries</span>
+                    </span>
+                </div>
+            </div>
+        </article>
+    </main>
 </body>
 
 </html>
