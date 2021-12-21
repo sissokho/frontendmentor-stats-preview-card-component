@@ -22,11 +22,12 @@
     <main class="flex justify-center items-center min-h-screen py-20">
         <article
             class="flex flex-col w-96 bg-blue-desaturated rounded-lg overflow-hidden lg:flex-row-reverse lg:w-[57rem] lg:h-[23rem]">
-            <div class="w-full h-60 lg:h-full lg:basis-1/2">
+            <div class="w-full h-60 relative lg:h-full lg:basis-1/2">
                 <img srcset="images/image-header-mobile.jpg 540w,
                             images/image-header-desktop.jpg 654w" sizes="(max-width: 1024px) 384px,
                             912px" src="images/image-header-desktop.jpg" alt="mage of our team members working"
                     class="h-full w-full">
+                <span class="block absolute inset-0 bg-violet mix-blend-multiply"></span>
             </div>
 
             <div class="px-8 py-10 lg:flex lg:flex-col lg:basis-1/2 lg:pl-14 lg:pr-20 lg:py-12">
